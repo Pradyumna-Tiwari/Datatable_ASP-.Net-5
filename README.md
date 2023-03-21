@@ -15,12 +15,12 @@
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     
-    #simply add these files in body of _layout.cshtml and then
+    <!--simply add these files in body of _layout.cshtml and then--!>
     
      @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
     
-    #and then add jquery function in which page where you want to implement data table
+    <!--and then add jquery function in which page where you want to implement data table --!>
     
 <script>
     $(document).ready(function () {
@@ -30,11 +30,13 @@
 </script>
 
 
-#aaa is the datatable id
+  <!-- aaa is the datatable id --!>
 
-#you should add <thead> for headings of data table and for data you should use <tbody>. in <tbody> your all the table will be show.
-#in the <table></table>, you have to mention your id like this
-#your full page shuld be like this ....
+<!--you should add <thead> for headings of data table and for data you should use <tbody>. in <tbody> your all the table will be show.--!>
+
+  <!-- in the <table></table>, you have to mention your id like this --!>
+
+  <!-- your full page shuld be like this --!>
 <table id="aaa">
 <thead></thead>
 <tbody></tbody>
@@ -46,6 +48,7 @@
     });
 </script>
 
-#if you still have any query DM me on instagram.
+
+  <!-- if you still have any query DM me on instagram --!>
 
     
