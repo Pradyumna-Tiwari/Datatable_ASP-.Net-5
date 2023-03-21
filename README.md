@@ -36,19 +36,21 @@
 
   <!-- in the <table></table>, you have to mention your id like this --!>
 
+
+
+
   <!-- your full page shuld be like this --!>
+
 <table id="aaa">
 <thead></thead>
 <tbody></tbody>
 </table>
 <script>
     $(document).ready(function () {
-        $('#aaa').DataTable();
-        
+    $('#aaa').DataTable();
     });
 </script>
 
-
-  <!-- if you still have any query DM me on instagram --!>
+<!-- if you still have any query DM me on instagram --!>
 
     
